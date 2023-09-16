@@ -2,123 +2,53 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Education
 
-[Link to another page](./another-page.html).
+I completed Bachelors degree in Computer Science from Indian
+Institute of Technology, Patna on May 2018. Following courses
+influenced me the most as part of this journey:
 
-There should be whitespace between paragraphs.
+* Bachelors Thesis in Natural Language Processing using Deep 
+  Learning
+* Artificial Intelligence
+* Data Structures and Algorithms
+* Computer Networks
+* Operating Systems
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+I spent the next four years working as a Software and Systems 
+Engineer in the industry. During this period my interests 
+swelled in the domain of Artificial Intelligence. This was 
+primarily due to the research conducted while writing my 
+bachelors thesis.
 
-# Header 1
+This motivated me to pursue a diploma in Data Science from Indian Institute of Technology, Madras. Notable courses in the 
+diploma program were:
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+* Statistics
+* Machine Learning Foundations and Techniques
+* Linear Algebra, Probability Theory and Combinatorics
 
-## Header 2
+Time management was crucial as I was pursuing diploma while 
+working full-time. I spent most of the latter half of 2021 
+applying for data science masters programs in North America 
+which led to an offer from University of Toronto in early 2022.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+As soon as I received my diploma in August 2022, I moved to 
+Canada to pursue Masters in Applied Computing program from
+University of Toronto. These four courses shaped my masters 
+experience:
 
-### Header 3
+* Internship at AMD, Markham on Computer Vision for Video Games
+* Deep Learning and Neural networks
+* Statistical Machine Learning
+* Computational Imaging
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+I will be completing my masters degree in December 2023.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## Work experience
 
-#### Header 4
+Work In Progress
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+## Project work
 
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
-
+Work In Progress
