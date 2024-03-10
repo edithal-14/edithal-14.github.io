@@ -21,3 +21,23 @@ bundle exec jekyll serve
 - Run `bundle exec jekyll build`
 
 - Copy contents under `_site` folder into the `public_html` root folder of your file hosting server
+
+### Deployment to github pages
+
+- Test in dev environment
+
+- Commit and push to dev branch
+
+- Go to github.com and create a PR to merge the changes to gh-pages branch
+
+- Rebase and merge the PR
+
+- Create a new release on the github repo
+
+### Deployment to file hosting server
+
+- First test and then deploy using this command from the root directory of the project
+
+```
+rsync -av _site comps0.cs.toronto.edu:/u/edithal/public_html
+```
