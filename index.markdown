@@ -1,24 +1,29 @@
 ---
 layout: page
-title: Senior AI Research Engineer at AMD, Markham
+title: Senior Software Engineer | GPU Profiling at AMD, Toronto
 subtitle: MSc in Applied Computing at University of Toronto
 css:
   - css/index.css
 ---
 
-### Present
+### Present, Senior Software Engineer @ AMD, Toronto
 
-At the User Experience Group at [AMD, Markham](https://www.amd.com/en/corporate/contact/locations/markham-ontario), we are working at the cross-roads of Computer 
-Vision, Natural Language Processing and Machine Learning to improve gaming experience using Radeon Software. 
+At the ROCm™ profiling team at [AMD, Toronto](https://www.amd.com/en/corporate/contact/locations/markham-ontario), we are working towards advancing the suite of tools used to profile, benchmark and optimize AI workloads on AMD Instinct™ Data Center accelerators.
+
+### Senior AI Researcher @ AMD, Toronto
+
+As part of the User Experience Group at [AMD, Toronto](https://www.amd.com/en/corporate/contact/locations/markham-ontario), I was working on the cross-roads of Computer Vision, Natural Language Processing and Machine Learning to improve gaming experience using Radeon Software.
+In particular, I worked on projects such as Game Event Detection, Visual Quality Assessment, Game Graphics Recommendation Engine and Efficient Retrieval Augmented Generation.
 
 ### Masters in Applied Computing @ University of Toronto
 
-I finished the [Masters in Applied Computing](https://mscac.utoronto.ca) program at the University of Toronto with specialization in Artificial Intelligence on December 2023. These four courses shaped my masters experience:
+I completed the [Masters in Applied Computing](https://mscac.utoronto.ca) program at the University of Toronto with specialization in Artificial Intelligence in December 2023. These four courses shaped my masters experience:
 
 * Internship at AMD, Markham on Computer Vision for Video Games
 * Deep Learning and Neural networks
 * Statistical Machine Learning
 * Computational Imaging
+* Data Science Methods
 
 ### Diploma in Data Science @ IIT Madras
 

@@ -39,5 +39,5 @@ bundle exec jekyll serve
 - First test and then deploy using this command from the root directory of the project
 
 ```
-rsync -av _site comps0.cs.toronto.edu:/u/edithal/public_html
+rsync -av _site/* comps0.cs.toronto.edu:/u/edithal/public_html
 ```
