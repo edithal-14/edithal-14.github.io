@@ -21,11 +21,39 @@ We also finetuned a video encoder model such as VideoMAE **[4]**.
 However, only the final classification layer could be finetuned while keeping the encoder weights frozen. This was done to prevent overfitting due to the small size of our dataset.
 To conclude, we show that natural language supervision leads to data efficient video recognition models
 
+Moreover, our model performed significantly better on low resource games (games with small dataset of annotated videos) when finetuned along with high resource games, thus, showing signs of transfer learning.
+We used ONNX libraries **[6]** to enable efficient cross platform inference. These libraries contain post training quantization APIs which reduce model size for efficient inference.
+The DirectML backend inference engine for ONNX enabled efficient deployment on Windows which enabled background inference with minimal impact on FPS while gaming.
+
 ### Images
+
+#### X-CLIP results
 
 ![X-CLIP results](/images/game_event_detection/xclip_results.png)
 
+#### VideoMAE results
 ![VideoMAE results](/images/game_event_detection/videomae_results.png)
+
+#### Dataset distribution
+![Dataset distribution](/images/game_event_detection/ged_data_dist.png)
+
+#### Testing results
+![Testing results](/images/game_event_detection/ged_test_results.png)
+
+#### Training pipeline
+![Training pipeline](/images/game_event_detection/ged_finetune_pipeline.png)
+
+#### Inference pipeline
+![Inference pipeline](/images/game_event_detection/ged_inference_pipeline.png)
+
+
+### Acknowledgements
+
+All credits for this work goes to the authors of this paper **[5]** 
+
+### Link to research report
+
+[Click here](https://arxiv.org/abs/2505.07721) to see the research report uploaded to arxiv
 
 ### References
 
@@ -45,3 +73,7 @@ general video recognition, 2022.
 
 **[4]** Zhan Tong, Yibing Song, Jue Wang, and Limin Wang. Videomae: Masked autoencoders
 are data-efficient learners for self-supervised video pre-training, 2022.
+
+**[5]** https://arxiv.org/abs/2505.07721
+
+**[6]** https://onnx.ai/onnx/intro
