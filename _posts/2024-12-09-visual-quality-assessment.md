@@ -35,7 +35,7 @@ Hence, we are limited to using in-built preset qualities in games to train our m
 
 ### Images
 
-![Example of distortions in video games](/images/game_vqa/distortion_dataset.png)
+![Example of distortions in video games]({{ '/images/game_vqa/distortion_dataset.png' | relative_url }})
 
 The five quality indicators in the distortion dataset.
 **Aliasing** appears as jagged or stair-stepped outlines.
@@ -44,11 +44,11 @@ The five quality indicators in the distortion dataset.
 **Ambient occlusion** is evident in contact shadows, the absence of which makes objects appear to float.
 Shadow quality refers to missing shadows or shadows rendered at low resolution
 
-![Overview of Game VQA model](/images/game_vqa/gdfe_model_arch.png)
+![Overview of Game VQA model]({{ '/images/game_vqa/gdfe_model_arch.png' | relative_url }})
 
 An overview of the Game VQA model architecture featuring the Game Distortion Feature Extractor obtained using distillation. The CLIP model outputs used for weighting features and the final quality regression output is also shown.
 
-![Game VQA results](/images/game_vqa/game_vqa_results.jpg)
+![Game VQA results]({{ '/images/game_vqa/game_vqa_results.jpg' | relative_url }})
 
 Distribution of aliasing and texture artifact detection for videos recorded at various graphics quality presets.
 Forza Horizon 4 and Forza Horizon 5 test videos were used to plot this chart while the model was trained on Forza Horizon 4 train videos.

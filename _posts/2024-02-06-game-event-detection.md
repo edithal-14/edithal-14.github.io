@@ -29,22 +29,22 @@ The DirectML backend inference engine for ONNX enabled efficient deployment on W
 
 #### X-CLIP results
 
-![X-CLIP results](/images/game_event_detection/xclip_results.png)
+![X-CLIP results]({{ '/images/game_event_detection/xclip_results.png' | relative_url }})
 
 #### VideoMAE results
-![VideoMAE results](/images/game_event_detection/videomae_results.png)
+![VideoMAE results]({{ '/images/game_event_detection/videomae_results.png' | relative_url }})
 
 #### Dataset distribution
-![Dataset distribution](/images/game_event_detection/ged_data_dist.png)
+![Dataset distribution]({{ '/images/game_event_detection/ged_data_dist.png' | relative_url }})
 
 #### Testing results
-![Testing results](/images/game_event_detection/ged_test_results.png)
+![Testing results]({{ '/images/game_event_detection/ged_test_results.png' | relative_url }})
 
 #### Training pipeline
-![Training pipeline](/images/game_event_detection/ged_finetune_pipeline.png)
+![Training pipeline]({{ '/images/game_event_detection/ged_finetune_pipeline.png' | relative_url }})
 
 #### Inference pipeline
-![Inference pipeline](/images/game_event_detection/ged_inference_pipeline.png)
+![Inference pipeline]({{ '/images/game_event_detection/ged_inference_pipeline.png' | relative_url }})
 
 
 ### Acknowledgements
