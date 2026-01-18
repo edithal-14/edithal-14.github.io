@@ -21,7 +21,7 @@ To collect large number of raw performance counters, the tool leverages applicat
 
 ![Standalone analysis GUI]({{ '/images/rocprof_compute/standalone_gui.png' | relative_url }})
 
-### Details 
+### Details
 
 As part of the profiling team, I have contributed to the following interesting features of the tool:
 
@@ -81,7 +81,7 @@ For link to source code, [click here](https://github.com/ROCm/rocm-systems/tree/
 
 ### Acknowledgements
 
-All credits for this work goes to the contributors of this project **[1]** 
+All credits for this work goes to the contributors of this project **[1]**
 
 ### References
 
