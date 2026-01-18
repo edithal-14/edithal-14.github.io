@@ -6,6 +6,6 @@ css:
   - css/projects_index.css
 ---
 
-These are the projects I have worked on during the course of my education.
+These are the projects I have worked on during the course of my education and work.
 
 Checkout my [GitHub](https://github.com/edithal-14) profile for a full list of projects.

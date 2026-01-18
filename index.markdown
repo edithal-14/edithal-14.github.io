@@ -10,6 +10,16 @@ css:
 
 At the ROCm™ profiling team at [AMD, Toronto](https://www.amd.com/en/corporate/contact/locations/markham-ontario), we are working towards advancing the suite of tools used to profile, benchmark and optimize AI workloads on AMD Instinct™ Data Center accelerators.
 
+
+Over the last year I have been contributing to the **rocprofiler-compute** component of the open source ROCm™ stack. For more details, see [this post]({% post_url 2026-01-10-rocprofiler-compute %})
+This tool enables performance profiling of GPU kernel code used in various HPC and AI workloads to help optimize the kernel code by providing key insights on its performance characteristics on AMD's Data Center GPUs such as MI 100, 200, 300 and 350 series of GPUs.
+
+
+It collects raw performance counters from various IP blocks of the GPU and derives performance metrics such as **Speed-Of-Light metrics, wavefront occupancy, roofline (compute vs memory bound), memory hierarchy bandwidth and data transfer, GPU pipeline stalls, scheduling efficiency, instruction mix** and other useful metrics.
+Moreover, it allows ROCtx based tracing to correlate source code with associated performance metrics.
+Other features include Program Counter (PC) sampling to investigate instructions stalls, roofline empirical benchmark and filtering options for fast and efficient profiling.
+To collect large number of raw performance counters, the tool leverages application replay and optionally provides iteration multiplexing ability to prevent application replay for large workloads with counter accuracy trade-off.
+
 ### Senior AI Researcher @ AMD, Toronto
 
 As part of the User Experience Group at [AMD, Toronto](https://www.amd.com/en/corporate/contact/locations/markham-ontario), I was working on the cross-roads of Computer Vision, Natural Language Processing and Machine Learning to improve gaming experience using Radeon Software.
