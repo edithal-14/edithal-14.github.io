@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Senior Software Engineer | GPU Profiling at AMD, Toronto
+title: Member of Technical Staff | GPU Profiling at AMD, Toronto
 subtitle: MSc in Applied Computing at University of Toronto
 css:
   - css/index.css
 ---
 
-### Present, Senior Software Engineer @ AMD, Toronto
+### Present, Member of Technical Staff @ AMD, Toronto
 
 At the ROCm™ profiling team at [AMD, Toronto](https://www.amd.com/en/corporate/contact/locations/markham-ontario), we are working towards advancing the suite of tools used to profile, benchmark and optimize AI workloads on AMD Instinct™ Data Center accelerators.
 

@@ -32,6 +32,10 @@ I wrote a C++ library tool using API provided by **[rocprofiler-sdk](https://roc
 The collected data is then stored in memory in structs and finally written to the disk when the workload being profiled exits.
 The Python tool takes care of runtime compilation of the C++ tool (if required) and sets the LD_PRELOAD environment variable such that the tool can setup the profiling services before the workload starts. This is called dynamic instrumentation.
 
+#### PC sampling and ISA collection
+
+Program Counter (PC) sampling records the program counter of in-flight wavefronts. This reveals which instructions the GPU spends most time on and why they stall. Unlike counter collection, it needs no application replay. It samples execution during a single run, which enables much faster profiling of large AI/HPC workloads. I leveraged **[rocprofiler-sdk](https://rocm.docs.amd.com/projects/rocprofiler-sdk/en/latest/)** callbacks to drive PC sampling and store the full code object disassembly (ISA). This lets the tool correlate sampled PCs with individual instructions. I also designed an analysis database schema to process the raw PC sampling data into actionable insights in the analysis mode of the tool. This gives kernel developers instruction level insight into stalls such as memory, execution and barrier waits, helping them pinpoint and optimize performance bottlenecks.
+
 #### Iteration multiplexing
 
 Due to hardware limitation in the number of registers and their sizes on the GPU, the number of counters that can be collected per kernel dispatch is limited.
